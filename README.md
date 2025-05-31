@@ -80,7 +80,8 @@ the program to abort when the test is run in a loop.
 
 ### Result: 
 It will output the average communication costs for ten random updates of each repository under the four methods.
-The results are recorded in `log/test_update_comm_log.log` and `log/test_FCC_comm_log.log`.
+
+The results will be recorded in `log/test_update_comm_log.log` and `log/test_FCC_comm_log.log`.
 
 ## E2: Experiment on computation costs of an update
 
