@@ -58,10 +58,7 @@ Please navigate to the `SecureGit/` directory before running.
 Run `python -m src.eval.test_update_comm`, where the parameter `REPO` in `src/eval/test_update_comm.py` is 
 set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
 
-#### Result: 
-It will output the average communication costs for ten random updates of each repository under the four methods.
-
-### Note:
+#### Note:
 please comment out the following code in src/eval/test_update_comm.py, when the parameter `REPO` in `src/eval/test_update_comm.py` is set to `FCC`,
 to get the communication cost of SGitChar, SGitLine, and Git-crypt.
 For Trivial-enc-sign, run `python -m src.eval.test_FCC_comm`, where the parameter $index$ is set to 0~9, respectively, 
@@ -81,6 +78,9 @@ the program to abort when the test is run in a loop.
     sum_trivial = sum_trivial + comm_cost_trivial
 
 The results are recorded in `log/test_update_comm_log.log` and `log/test_FCC_comm_log.log`.
+
+#### Result: 
+It will output the average communication costs for ten random updates of each repository under the four methods.
 
 ### E2: Experiment on computation costs of an update
 
