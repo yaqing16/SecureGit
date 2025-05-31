@@ -1,0 +1,272 @@
+2025-05-28 01:44:08,283 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 01:44:08,284 - INFO - Repo: awesome
+2025-05-28 01:44:08,284 - INFO - SGitChar: 0.0001
+2025-05-28 01:44:08,284 - INFO - SGitLine: 0.0004
+2025-05-28 01:44:08,284 - INFO - Git-crypt: 0.0001
+2025-05-28 01:44:08,284 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 01:44:18,516 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 01:44:18,516 - INFO - Repo: awesome
+2025-05-28 01:44:18,516 - INFO - Git: 0.5400390625
+2025-05-28 01:44:18,516 - INFO - SGitChar: 1.06
+2025-05-28 01:44:18,516 - INFO - SGitLine: 1.36
+2025-05-28 01:44:18,516 - INFO - Git-crypt: 1.06
+2025-05-28 01:44:18,516 - INFO - Trivial-enc-sign: 1.06
+2025-05-28 01:48:08,043 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 01:48:08,043 - INFO - Repo: free-programming-books
+2025-05-28 01:48:08,043 - INFO - SGitChar: 0.0001
+2025-05-28 01:48:08,043 - INFO - SGitLine: 0.0005
+2025-05-28 01:48:08,043 - INFO - Git-crypt: 0.0002
+2025-05-28 01:48:08,043 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 01:48:18,932 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 01:48:18,932 - INFO - Repo: free-programming-books
+2025-05-28 01:48:18,932 - INFO - Git: 0.939453125
+2025-05-28 01:48:18,932 - INFO - SGitChar: 1.58
+2025-05-28 01:48:18,932 - INFO - SGitLine: 1.99
+2025-05-28 01:48:18,932 - INFO - Git-crypt: 1.58
+2025-05-28 01:48:18,932 - INFO - Trivial-enc-sign: 1.58
+2025-05-28 01:54:20,174 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 01:54:20,174 - INFO - Repo: bootstrap
+2025-05-28 01:54:20,174 - INFO - SGitChar: 0.0021
+2025-05-28 01:54:20,174 - INFO - SGitLine: 0.0474
+2025-05-28 01:54:20,174 - INFO - Git-crypt: 0.0033
+2025-05-28 01:54:20,174 - INFO - Trivial-enc-sign: 0.0021
+2025-05-28 01:54:35,690 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 01:54:35,690 - INFO - Repo: bootstrap
+2025-05-28 01:54:35,690 - INFO - Git: 253.42
+2025-05-28 01:54:35,690 - INFO - SGitChar: 400.5
+2025-05-28 01:54:35,690 - INFO - SGitLine: 471.57
+2025-05-28 01:54:35,690 - INFO - Git-crypt: 400.5
+2025-05-28 01:54:35,690 - INFO - Trivial-enc-sign: 400.5
+2025-05-28 02:04:21,264 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 02:04:21,264 - INFO - Repo: react
+2025-05-28 02:04:21,264 - INFO - SGitChar: 0.015
+2025-05-28 02:04:21,264 - INFO - SGitLine: 0.4917
+2025-05-28 02:04:21,264 - INFO - Git-crypt: 0.0235
+2025-05-28 02:04:21,264 - INFO - Trivial-enc-sign: 0.015
+2025-05-28 02:04:52,961 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 02:04:52,961 - INFO - Repo: react
+2025-05-28 02:04:52,961 - INFO - Git: 620.61
+2025-05-28 02:04:52,961 - INFO - SGitChar: 984.0
+2025-05-28 02:04:52,962 - INFO - SGitLine: 984.0
+2025-05-28 02:04:52,962 - INFO - Git-crypt: 984.0
+2025-05-28 02:04:52,962 - INFO - Trivial-enc-sign: 984.0
+2025-05-28 02:12:39,837 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 02:12:39,837 - INFO - Repo: freeCodeCamp
+2025-05-28 02:12:39,837 - INFO - SGitChar: 0.0001
+2025-05-28 02:12:39,837 - INFO - SGitLine: 0.0007
+2025-05-28 02:12:39,837 - INFO - Git-crypt: 0.0002
+2025-05-28 02:12:39,837 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 02:13:24,357 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 02:13:24,357 - INFO - Repo: freeCodeCamp
+2025-05-28 02:13:24,357 - INFO - Git: 1.04
+2025-05-28 02:13:24,358 - INFO - SGitChar: 1.69
+2025-05-28 02:13:24,358 - INFO - SGitLine: 2.3
+2025-05-28 02:13:24,358 - INFO - Git-crypt: 1.69
+2025-05-28 02:13:24,358 - INFO - Trivial-enc-sign: 1.7
+2025-05-28 02:15:51,029 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 02:15:51,029 - INFO - Repo: DocRepo
+2025-05-28 02:15:51,029 - INFO - SGitChar: 0.0033
+2025-05-28 02:15:51,029 - INFO - SGitLine: 0.0717
+2025-05-28 02:15:51,029 - INFO - Git-crypt: 0.0051
+2025-05-28 02:15:51,029 - INFO - Trivial-enc-sign: 0.0032
+2025-05-28 02:16:07,921 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 02:16:07,921 - INFO - Repo: DocRepo
+2025-05-28 02:16:07,921 - INFO - Git: 445.93
+2025-05-28 02:16:07,921 - INFO - SGitChar: 729.38
+2025-05-28 02:16:07,921 - INFO - SGitLine: 847.2
+2025-05-28 02:16:07,921 - INFO - Git-crypt: 719.89
+2025-05-28 02:16:07,921 - INFO - Trivial-enc-sign: 729.45
+2025-05-28 02:18:39,096 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 02:18:39,096 - INFO - Repo: react
+2025-05-28 02:18:39,096 - INFO - SGitChar: 0.0147
+2025-05-28 02:18:39,096 - INFO - SGitLine: 0.4892
+2025-05-28 02:18:39,096 - INFO - Git-crypt: 0.0218
+2025-05-28 02:18:39,096 - INFO - Trivial-enc-sign: 0.0142
+2025-05-28 02:20:16,734 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 02:20:16,734 - INFO - Repo: react
+2025-05-28 02:20:16,735 - INFO - Git: 620.61
+2025-05-28 02:20:16,735 - INFO - SGitChar: 984.0
+2025-05-28 02:20:16,735 - INFO - SGitLine: 984.0
+2025-05-28 02:20:16,735 - INFO - Git-crypt: 984.0
+2025-05-28 02:20:16,735 - INFO - Trivial-enc-sign: 984.0
+2025-05-28 14:24:27,128 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 14:24:27,128 - INFO - Repo: awesome
+2025-05-28 14:24:27,128 - INFO - SGitChar: 0.0001
+2025-05-28 14:24:27,129 - INFO - SGitLine: 0.0005
+2025-05-28 14:24:27,129 - INFO - Git-crypt: 0.0001
+2025-05-28 14:24:27,129 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 14:24:38,288 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 14:24:38,288 - INFO - Repo: awesome
+2025-05-28 14:24:38,288 - INFO - Git: 0.5400390625
+2025-05-28 14:24:38,288 - INFO - SGitChar: 1.06
+2025-05-28 14:24:38,288 - INFO - SGitLine: 1.36
+2025-05-28 14:24:38,288 - INFO - Git-crypt: 1.06
+2025-05-28 14:24:38,288 - INFO - Trivial-enc-sign: 1.06
+2025-05-28 14:31:11,192 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 14:31:11,192 - INFO - Repo: awesome
+2025-05-28 14:31:11,192 - INFO - SGitChar: 0.0001
+2025-05-28 14:31:11,192 - INFO - SGitLine: 0.0004
+2025-05-28 14:31:11,192 - INFO - Git-crypt: 0.0001
+2025-05-28 14:31:11,192 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 14:31:21,034 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 14:31:21,034 - INFO - Repo: awesome
+2025-05-28 14:31:21,034 - INFO - Git: 0.54
+2025-05-28 14:31:21,034 - INFO - SGitChar: 1.06
+2025-05-28 14:31:21,034 - INFO - SGitLine: 1.37
+2025-05-28 14:31:21,034 - INFO - Git-crypt: 1.06
+2025-05-28 14:31:21,034 - INFO - Trivial-enc-sign: 1.06
+2025-05-28 14:34:38,821 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 14:34:38,821 - INFO - Repo: free-programming-books
+2025-05-28 14:34:38,821 - INFO - SGitChar: 0.0001
+2025-05-28 14:34:38,821 - INFO - SGitLine: 0.0005
+2025-05-28 14:34:38,821 - INFO - Git-crypt: 0.0002
+2025-05-28 14:34:38,821 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 14:34:49,861 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 14:34:49,861 - INFO - Repo: free-programming-books
+2025-05-28 14:34:49,861 - INFO - Git: 0.9404
+2025-05-28 14:34:49,861 - INFO - SGitChar: 1.57
+2025-05-28 14:34:49,861 - INFO - SGitLine: 1.99
+2025-05-28 14:34:49,861 - INFO - Git-crypt: 1.57
+2025-05-28 14:34:49,861 - INFO - Trivial-enc-sign: 1.58
+2025-05-28 15:01:59,660 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 15:01:59,660 - INFO - Repo: free-programming-books
+2025-05-28 15:01:59,660 - INFO - SGitChar: 0.0001
+2025-05-28 15:01:59,660 - INFO - SGitLine: 0.0008
+2025-05-28 15:01:59,660 - INFO - Git-crypt: 0.0002
+2025-05-28 15:01:59,660 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 15:02:11,202 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 15:02:11,202 - INFO - Repo: free-programming-books
+2025-05-28 15:02:11,202 - INFO - Git: 0.9395
+2025-05-28 15:02:11,202 - INFO - SGitChar: 1.58
+2025-05-28 15:02:11,202 - INFO - SGitLine: 1.99
+2025-05-28 15:02:11,202 - INFO - Git-crypt: 1.57
+2025-05-28 15:02:11,202 - INFO - Trivial-enc-sign: 1.57
+2025-05-28 15:09:45,151 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 15:09:45,151 - INFO - Repo: bootstrap
+2025-05-28 15:09:45,151 - INFO - SGitChar: 0.0023
+2025-05-28 15:09:45,151 - INFO - SGitLine: 0.0494
+2025-05-28 15:09:45,151 - INFO - Git-crypt: 0.0036
+2025-05-28 15:09:45,151 - INFO - Trivial-enc-sign: 0.0023
+2025-05-28 15:10:04,220 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 15:10:04,220 - INFO - Repo: bootstrap
+2025-05-28 15:10:04,220 - INFO - Git: 253.42
+2025-05-28 15:10:04,220 - INFO - SGitChar: 400.52
+2025-05-28 15:10:04,220 - INFO - SGitLine: 471.53
+2025-05-28 15:10:04,220 - INFO - Git-crypt: 400.5
+2025-05-28 15:10:04,220 - INFO - Trivial-enc-sign: 400.46
+2025-05-28 15:33:38,799 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 15:33:38,799 - INFO - Repo: bootstrap
+2025-05-28 15:33:38,799 - INFO - SGitChar: 0.0025
+2025-05-28 15:33:38,799 - INFO - SGitLine: 0.0485
+2025-05-28 15:33:38,799 - INFO - Git-crypt: 0.0033
+2025-05-28 15:33:38,799 - INFO - Trivial-enc-sign: 0.0024
+2025-05-28 15:34:11,733 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 15:34:11,733 - INFO - Repo: bootstrap
+2025-05-28 15:34:11,733 - INFO - Git: 253.42
+2025-05-28 15:34:11,733 - INFO - SGitChar: 400.49
+2025-05-28 15:34:11,733 - INFO - SGitLine: 471.58
+2025-05-28 15:34:11,733 - INFO - Git-crypt: 400.5
+2025-05-28 15:34:11,733 - INFO - Trivial-enc-sign: 400.5
+2025-05-28 15:57:20,975 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 15:57:20,975 - INFO - Repo: react
+2025-05-28 15:57:20,975 - INFO - SGitChar: 0.0159
+2025-05-28 15:57:20,975 - INFO - SGitLine: 0.4999
+2025-05-28 15:57:20,975 - INFO - Git-crypt: 0.0225
+2025-05-28 15:57:20,975 - INFO - Trivial-enc-sign: 0.015
+2025-05-28 15:58:38,245 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 15:58:38,245 - INFO - Repo: react
+2025-05-28 15:58:38,245 - INFO - Git: 620.61
+2025-05-28 15:58:38,245 - INFO - SGitChar: 984.0
+2025-05-28 15:58:38,245 - INFO - SGitLine: 984.0
+2025-05-28 15:58:38,245 - INFO - Git-crypt: 984.0
+2025-05-28 15:58:38,245 - INFO - Trivial-enc-sign: 984.0
+2025-05-28 16:12:33,228 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 16:12:33,228 - INFO - Repo: freeCodeCamp
+2025-05-28 16:12:33,228 - INFO - SGitChar: 0.0001
+2025-05-28 16:12:33,228 - INFO - SGitLine: 0.0008
+2025-05-28 16:12:33,228 - INFO - Git-crypt: 0.0002
+2025-05-28 16:12:33,228 - INFO - Trivial-enc-sign: 0.0001
+2025-05-28 16:13:30,024 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 16:13:30,024 - INFO - Repo: freeCodeCamp
+2025-05-28 16:13:30,024 - INFO - Git: 1.04
+2025-05-28 16:13:30,024 - INFO - SGitChar: 1.69
+2025-05-28 16:13:30,024 - INFO - SGitLine: 2.3
+2025-05-28 16:13:30,024 - INFO - Git-crypt: 1.7
+2025-05-28 16:13:30,024 - INFO - Trivial-enc-sign: 1.7
+2025-05-28 16:18:31,190 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-28 16:18:31,190 - INFO - Repo: DocRepo
+2025-05-28 16:18:31,190 - INFO - SGitChar: 0.0033
+2025-05-28 16:18:31,190 - INFO - SGitLine: 0.0722
+2025-05-28 16:18:31,190 - INFO - Git-crypt: 0.0049
+2025-05-28 16:18:31,190 - INFO - Trivial-enc-sign: 0.0033
+2025-05-28 16:18:48,126 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-28 16:18:48,126 - INFO - Repo: DocRepo
+2025-05-28 16:18:48,126 - INFO - Git: 445.93
+2025-05-28 16:18:48,126 - INFO - SGitChar: 729.42
+2025-05-28 16:18:48,126 - INFO - SGitLine: 847.17
+2025-05-28 16:18:48,126 - INFO - Git-crypt: 719.89
+2025-05-28 16:18:48,126 - INFO - Trivial-enc-sign: 729.41
+2025-05-30 00:20:27,045 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-30 00:20:27,046 - INFO - Repo: awesome
+2025-05-30 00:20:27,046 - INFO - SGitChar: 0.0001
+2025-05-30 00:20:27,046 - INFO - SGitLine: 0.0004
+2025-05-30 00:20:27,046 - INFO - Git-crypt: 0.0001
+2025-05-30 00:20:27,046 - INFO - Trivial-enc-sign: 0.0001
+2025-05-30 00:20:36,811 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-30 00:20:36,811 - INFO - Repo: awesome
+2025-05-30 00:20:36,811 - INFO - Git: 0.54
+2025-05-30 00:20:36,811 - INFO - SGitChar: 1.15
+2025-05-30 00:20:36,811 - INFO - SGitLine: 1.45
+2025-05-30 00:20:36,811 - INFO - Git-crypt: 1.06
+2025-05-30 00:20:36,811 - INFO - Trivial-enc-sign: 1.15
+2025-05-30 00:20:43,886 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-30 00:20:43,886 - INFO - Repo: DocRepo
+2025-05-30 00:20:43,886 - INFO - SGitChar: 0.0037
+2025-05-30 00:20:43,886 - INFO - SGitLine: 0.074
+2025-05-30 00:20:43,886 - INFO - Git-crypt: 0.005
+2025-05-30 00:20:43,886 - INFO - Trivial-enc-sign: 0.0033
+2025-05-30 00:21:00,798 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-30 00:21:00,799 - INFO - Repo: DocRepo
+2025-05-30 00:21:00,799 - INFO - Git: 445.93
+2025-05-30 00:21:00,799 - INFO - SGitChar: 729.49
+2025-05-30 00:21:00,799 - INFO - SGitLine: 847.3
+2025-05-30 00:21:00,799 - INFO - Git-crypt: 719.9
+2025-05-30 00:21:00,799 - INFO - Trivial-enc-sign: 729.48
+2025-05-30 11:48:36,659 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-30 11:48:36,660 - INFO - Repo: awesome
+2025-05-30 11:48:36,660 - INFO - SGitChar: 0.0001
+2025-05-30 11:48:36,660 - INFO - SGitLine: 0.0005
+2025-05-30 11:48:36,660 - INFO - Git-crypt: 0.0002
+2025-05-30 11:48:36,660 - INFO - Trivial-enc-sign: 0.0001
+2025-05-30 11:51:16,272 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-30 11:51:16,272 - INFO - Repo: awesome
+2025-05-30 11:51:16,272 - INFO - SGitChar: 0.0001
+2025-05-30 11:51:16,272 - INFO - SGitLine: 0.0005
+2025-05-30 11:51:16,272 - INFO - Git-crypt: 0.0001
+2025-05-30 11:51:16,272 - INFO - Trivial-enc-sign: 0.0001
+2025-05-30 11:54:16,291 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-30 11:54:16,292 - INFO - Repo: awesome
+2025-05-30 11:54:16,292 - INFO - SGitChar: 0.0001
+2025-05-30 11:54:16,292 - INFO - SGitLine: 0.0004
+2025-05-30 11:54:16,292 - INFO - Git-crypt: 0.0001
+2025-05-30 11:54:16,292 - INFO - Trivial-enc-sign: 0.0001
+2025-05-30 11:54:26,956 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-30 11:54:26,956 - INFO - Repo: awesome
+2025-05-30 11:54:26,956 - INFO - Git: 0.54
+2025-05-30 11:54:26,956 - INFO - SGitChar: 1.15
+2025-05-30 11:54:26,956 - INFO - SGitLine: 1.45
+2025-05-30 11:54:26,956 - INFO - Git-crypt: 1.06
+2025-05-30 11:54:26,957 - INFO - Trivial-enc-sign: 1.14
+2025-05-31 00:27:14,624 - INFO - The computation costs of Initialization shown in Table 4 (s):
+2025-05-31 00:27:14,625 - INFO - Repo: awesome
+2025-05-31 00:27:14,625 - INFO - SGitChar: 0.0001
+2025-05-31 00:27:14,625 - INFO - SGitLine: 0.0004
+2025-05-31 00:27:14,625 - INFO - Git-crypt: 0.0001
+2025-05-31 00:27:14,625 - INFO - Trivial-enc-sign: 0.0001
+2025-05-31 00:27:30,814 - INFO - The communication costs of Initialization shown in Table 2 (KB):
+2025-05-31 00:27:30,814 - INFO - Repo: awesome
+2025-05-31 00:27:30,814 - INFO - Git: 0.54
+2025-05-31 00:27:30,814 - INFO - SGitChar: 1.06
+2025-05-31 00:27:30,814 - INFO - SGitLine: 1.36
+2025-05-31 00:27:30,814 - INFO - Git-crypt: 1.06
+2025-05-31 00:27:30,814 - INFO - Trivial-enc-sign: 1.06

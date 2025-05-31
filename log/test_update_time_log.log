@@ -1,0 +1,216 @@
+2025-05-28 10:07:09,490 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-28 10:07:09,490 - INFO - Repo: awesome
+2025-05-28 10:07:09,490 - INFO - SGitChar:
+2025-05-28 10:07:09,490 - INFO - Compare: 0.00021
+2025-05-28 10:07:09,490 - INFO - Encrypt: 2e-05
+2025-05-28 10:07:09,490 - INFO - Total: 0.0002
+2025-05-28 10:07:09,490 - INFO - SGitLine:
+2025-05-28 10:07:09,490 - INFO - Compare: 0.02666
+2025-05-28 10:07:09,490 - INFO - Enc + update: 0.0001
+2025-05-28 10:07:09,490 - INFO - Total: 0.02676
+2025-05-28 10:07:09,490 - INFO - Git-crypt: 0.00018
+2025-05-28 10:07:09,490 - INFO - Trivial-enc-sign: 0.00076
+2025-05-28 10:10:03,261 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-28 10:10:03,261 - INFO - Repo: free-programming-books
+2025-05-28 10:10:03,261 - INFO - SGitChar:
+2025-05-28 10:10:03,261 - INFO - Compare: 0.0003
+2025-05-28 10:10:03,261 - INFO - Encrypt: 2e-05
+2025-05-28 10:10:03,261 - INFO - Total: 0.0003
+2025-05-28 10:10:03,261 - INFO - SGitLine:
+2025-05-28 10:10:03,261 - INFO - Compare: 0.0266
+2025-05-28 10:10:03,261 - INFO - Enc + update: 8e-05
+2025-05-28 10:10:03,261 - INFO - Total: 0.02668
+2025-05-28 10:10:03,261 - INFO - Git-crypt: 0.00011
+2025-05-28 10:10:03,261 - INFO - Trivial-enc-sign: 0.00453
+2025-05-28 10:13:55,393 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-28 10:13:55,393 - INFO - Repo: bootstrap
+2025-05-28 10:13:55,393 - INFO - SGitChar:
+2025-05-28 10:13:55,393 - INFO - Compare: 0.10042
+2025-05-28 10:13:55,395 - INFO - Encrypt: 9e-05
+2025-05-28 10:13:55,395 - INFO - Total: 0.1005
+2025-05-28 10:13:55,395 - INFO - SGitLine:
+2025-05-28 10:13:55,395 - INFO - Compare: 0.02747
+2025-05-28 10:13:55,396 - INFO - Enc + update: 0.00113
+2025-05-28 10:13:55,396 - INFO - Total: 0.0286
+2025-05-28 10:13:55,396 - INFO - Git-crypt: 0.00061
+2025-05-28 10:13:55,396 - INFO - Trivial-enc-sign: 0.02679
+2025-05-28 10:23:31,355 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-28 10:23:31,355 - INFO - Repo: react
+2025-05-28 10:23:31,355 - INFO - SGitChar:
+2025-05-28 10:23:31,355 - INFO - Compare: 0.1176
+2025-05-28 10:23:31,355 - INFO - Encrypt: 0.00015
+2025-05-28 10:23:31,355 - INFO - Total: 0.1177
+2025-05-28 10:23:31,355 - INFO - SGitLine:
+2025-05-28 10:23:31,355 - INFO - Compare: 0.02811
+2025-05-28 10:23:31,355 - INFO - Enc + update: 0.00213
+2025-05-28 10:23:31,355 - INFO - Total: 0.03024
+2025-05-28 10:23:31,355 - INFO - Git-crypt: 0.00064
+2025-05-28 10:23:31,355 - INFO - Trivial-enc-sign: 0.19086
+2025-05-29 12:07:21,830 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 12:07:21,843 - INFO - Repo: DocRepo
+2025-05-29 12:07:21,843 - INFO - SGitChar:
+2025-05-29 12:07:21,843 - INFO - Compare: 0.33253
+2025-05-29 12:07:21,843 - INFO - Encrypt: 0.00023
+2025-05-29 12:07:21,846 - INFO - Total: 0.3328
+2025-05-29 12:07:21,846 - INFO - SGitLine:
+2025-05-29 12:07:21,846 - INFO - Compare: 0.06068
+2025-05-29 12:07:21,846 - INFO - Enc + update: 0.00076
+2025-05-29 12:07:21,846 - INFO - Total: 0.061439999999999995
+2025-05-29 12:07:21,846 - INFO - Git-crypt: 0.00047
+2025-05-29 12:07:21,846 - INFO - Trivial-enc-sign: 0.00346
+2025-05-29 12:13:32,854 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 12:13:32,854 - INFO - Repo: DocRepo
+2025-05-29 12:13:32,854 - INFO - SGitChar:
+2025-05-29 12:13:32,854 - INFO - Compare: 0.3338
+2025-05-29 12:13:32,854 - INFO - Encrypt: 0.0002
+2025-05-29 12:13:32,854 - INFO - Total: 0.3340
+2025-05-29 12:13:32,854 - INFO - SGitLine:
+2025-05-29 12:13:32,854 - INFO - Compare: 0.11306
+2025-05-29 12:13:32,854 - INFO - Enc + update: 0.00077
+2025-05-29 12:13:32,854 - INFO - Total: 0.11383
+2025-05-29 12:13:32,854 - INFO - Git-crypt: 0.00048
+2025-05-29 12:13:32,854 - INFO - Trivial-enc-sign: 0.0036
+2025-05-29 12:43:01,097 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 12:43:01,097 - INFO - Repo: awesome
+2025-05-29 12:43:01,097 - INFO - SGitChar:
+2025-05-29 12:43:01,097 - INFO - Compare: 0.00028
+2025-05-29 12:43:01,097 - INFO - Encrypt: 3e-05
+2025-05-29 12:43:01,098 - INFO - Total: 0.0003
+2025-05-29 12:43:01,098 - INFO - SGitLine:
+2025-05-29 12:43:01,098 - INFO - Compare: 0.02765
+2025-05-29 12:43:01,098 - INFO - Enc + update: 0.0001
+2025-05-29 12:43:01,098 - INFO - Total: 0.02775
+2025-05-29 12:43:01,098 - INFO - Git-crypt: 0.00019
+2025-05-29 12:43:01,098 - INFO - Trivial-enc-sign: 0.00076
+2025-05-29 12:45:48,618 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 12:45:48,618 - INFO - Repo: DocRepo
+2025-05-29 12:45:48,618 - INFO - SGitChar:
+2025-05-29 12:45:48,618 - INFO - Compare: 0.33369
+2025-05-29 12:45:48,618 - INFO - Encrypt: 0.00019
+2025-05-29 12:45:48,618 - INFO - Total: 0.3339
+2025-05-29 12:45:48,618 - INFO - SGitLine:
+2025-05-29 12:45:48,618 - INFO - Compare: 0.03355
+2025-05-29 12:45:48,618 - INFO - Enc + update: 0.00078
+2025-05-29 12:45:48,618 - INFO - Total: 0.034330000000000006
+2025-05-29 12:45:48,618 - INFO - Git-crypt: 0.00046
+2025-05-29 12:45:48,618 - INFO - Trivial-enc-sign: 0.00326
+2025-05-29 13:58:21,892 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 13:58:21,892 - INFO - Repo: free-programming-books
+2025-05-29 13:58:21,892 - INFO - SGitChar:
+2025-05-29 13:58:21,892 - INFO - Compare: 0.00032
+2025-05-29 13:58:21,892 - INFO - Encrypt: 3e-05
+2025-05-29 13:58:21,892 - INFO - Total: 0.0004
+2025-05-29 13:58:21,892 - INFO - SGitLine:
+2025-05-29 13:58:21,892 - INFO - Compare: 0.02752
+2025-05-29 13:58:21,892 - INFO - Enc + update: 8e-05
+2025-05-29 13:58:21,892 - INFO - Total: 0.0276
+2025-05-29 13:58:21,892 - INFO - Git-crypt: 0.00011
+2025-05-29 13:58:21,892 - INFO - Trivial-enc-sign: 0.00453
+2025-05-29 14:00:43,729 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 14:00:43,730 - INFO - Repo: free-programming-books
+2025-05-29 14:00:43,730 - INFO - SGitChar:
+2025-05-29 14:00:43,730 - INFO - Compare: 0.00031
+2025-05-29 14:00:43,730 - INFO - Encrypt: 3e-05
+2025-05-29 14:00:43,730 - INFO - Total: 0.0003
+2025-05-29 14:00:43,730 - INFO - SGitLine:
+2025-05-29 14:00:43,730 - INFO - Compare: 0.02742
+2025-05-29 14:00:43,730 - INFO - Enc + update: 9e-05
+2025-05-29 14:00:43,730 - INFO - Total: 0.02751
+2025-05-29 14:00:43,730 - INFO - Git-crypt: 0.00011
+2025-05-29 14:00:43,730 - INFO - Trivial-enc-sign: 0.00468
+2025-05-29 14:03:18,849 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 14:03:18,849 - INFO - Repo: bootstrap
+2025-05-29 14:03:18,849 - INFO - SGitChar:
+2025-05-29 14:03:18,849 - INFO - Compare: 0.10045
+2025-05-29 14:03:18,849 - INFO - Encrypt: 9e-05
+2025-05-29 14:03:18,849 - INFO - Total: 0.1005
+2025-05-29 14:03:18,849 - INFO - SGitLine:
+2025-05-29 14:03:18,849 - INFO - Compare: 0.02873
+2025-05-29 14:03:18,849 - INFO - Enc + update: 0.00098
+2025-05-29 14:03:18,849 - INFO - Total: 0.02971
+2025-05-29 14:03:18,849 - INFO - Git-crypt: 0.00057
+2025-05-29 14:03:18,849 - INFO - Trivial-enc-sign: 0.02293
+2025-05-29 14:20:48,038 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 14:20:48,038 - INFO - Repo: react
+2025-05-29 14:20:48,038 - INFO - SGitChar:
+2025-05-29 14:20:48,038 - INFO - Compare: 0.08883
+2025-05-29 14:20:48,038 - INFO - Encrypt: 0.00012
+2025-05-29 14:20:48,038 - INFO - Total: 0.0890
+2025-05-29 14:20:48,038 - INFO - SGitLine:
+2025-05-29 14:20:48,038 - INFO - Compare: 0.03761
+2025-05-29 14:20:48,038 - INFO - Enc + update: 0.00098
+2025-05-29 14:20:48,038 - INFO - Total: 0.03859
+2025-05-29 14:20:48,039 - INFO - Git-crypt: 0.00028
+2025-05-29 14:20:48,039 - INFO - Trivial-enc-sign: 0.12345
+2025-05-29 15:24:18,916 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-29 15:24:18,918 - INFO - Repo: freeCodeCamp
+2025-05-29 15:24:18,918 - INFO - SGitChar:
+2025-05-29 15:24:18,918 - INFO - Compare: 0.06827
+2025-05-29 15:24:18,918 - INFO - Encrypt: 0.00016
+2025-05-29 15:24:18,918 - INFO - Total: 0.0684
+2025-05-29 15:24:18,918 - INFO - SGitLine:
+2025-05-29 15:24:18,918 - INFO - Compare: 0.03404
+2025-05-29 15:24:18,918 - INFO - Enc + update: 0.00089
+2025-05-29 15:24:18,918 - INFO - Total: 0.03493
+2025-05-29 15:24:18,918 - INFO - Git-crypt: 0.00083
+2025-05-29 15:24:18,919 - INFO - Trivial-enc-sign: 0.60453
+2025-05-30 15:53:14,459 - INFO - Repo: awesome
+2025-05-30 15:53:14,459 - INFO - Communication cots of an update (KB):
+2025-05-30 15:53:14,460 - INFO - SGitChar: 0.513671875
+2025-05-30 15:53:14,460 - INFO - SGitLine: 0.4501953125
+2025-05-30 15:53:14,460 - INFO - Git-crypt: 1.22
+2025-05-30 15:53:14,460 - INFO - Trivial-enc-sign (MB): 1.24
+2025-05-30 15:53:14,556 - INFO - Repo: awesome
+2025-05-30 15:53:14,556 - INFO - Computation cots of recovering one version (KB):
+2025-05-30 15:53:14,556 - INFO - SGitChar: 0.007622999997693114
+2025-05-30 15:53:14,556 - INFO - SGitLine: 0.0003271000023232773
+2025-05-30 15:53:14,557 - INFO - Git-crypt: 6.53000024612993e-05
+2025-05-30 15:53:14,557 - INFO - Trivial-enc-sign: 3.989999822806567e-05
+2025-05-31 00:20:53,404 - INFO - Repo: awesome
+2025-05-31 00:20:53,405 - INFO - Communication cots of an update (KB):
+2025-05-31 00:20:53,405 - INFO - SGitChar: 0.5087890625
+2025-05-31 00:20:53,405 - INFO - SGitLine: 0.44921875
+2025-05-31 00:20:53,405 - INFO - Git-crypt: 1.22
+2025-05-31 00:20:53,405 - INFO - Trivial-enc-sign (MB): 1.24
+2025-05-31 00:20:53,474 - INFO - Repo: awesome
+2025-05-31 00:20:53,474 - INFO - Computation cots of recovering one version (KB):
+2025-05-31 00:20:53,474 - INFO - SGitChar: 0.007419300003675744
+2025-05-31 00:20:53,474 - INFO - SGitLine: 0.0003171999996993691
+2025-05-31 00:20:53,475 - INFO - Git-crypt: 6.120000034570694e-05
+2025-05-31 00:20:53,475 - INFO - Trivial-enc-sign: 4.47999918833375e-05
+2025-05-31 00:29:02,685 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-31 00:29:02,686 - INFO - Repo: awesome
+2025-05-31 00:29:02,686 - INFO - SGitChar:
+2025-05-31 00:29:02,686 - INFO - Compare: 0.00026
+2025-05-31 00:29:02,686 - INFO - Encrypt: 2e-05
+2025-05-31 00:29:02,686 - INFO - Total: 0.0003
+2025-05-31 00:29:02,686 - INFO - SGitLine:
+2025-05-31 00:29:02,686 - INFO - Compare: 0.02622
+2025-05-31 00:29:02,686 - INFO - Enc + update: 0.0001
+2025-05-31 00:29:02,686 - INFO - Total: 0.02632
+2025-05-31 00:29:02,686 - INFO - Git-crypt: 0.00019
+2025-05-31 00:29:02,686 - INFO - Trivial-enc-sign: 0.00074
+2025-05-31 10:08:52,244 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-31 10:08:52,244 - INFO - Repo: awesome
+2025-05-31 10:08:52,244 - INFO - SGitChar:
+2025-05-31 10:08:52,244 - INFO - Compare: 0.00026
+2025-05-31 10:08:52,245 - INFO - Encrypt: 2e-05
+2025-05-31 10:08:52,245 - INFO - Total: 0.0003
+2025-05-31 10:08:52,245 - INFO - SGitLine:
+2025-05-31 10:08:52,245 - INFO - Compare: 0.02644
+2025-05-31 10:08:52,245 - INFO - Enc + update: 0.0001
+2025-05-31 10:08:52,245 - INFO - Total: 0.02654
+2025-05-31 10:08:52,245 - INFO - Git-crypt: 0.00019
+2025-05-31 10:08:52,245 - INFO - Trivial-enc-sign: 0.00075
+2025-05-31 16:50:42,606 - INFO - The computation costs of update shown in Table 3 (s):
+2025-05-31 16:50:42,606 - INFO - Repo: awesome
+2025-05-31 16:50:42,606 - INFO - SGitChar:
+2025-05-31 16:50:42,606 - INFO - Compare: 0.00028
+2025-05-31 16:50:42,606 - INFO - Encrypt: 3e-05
+2025-05-31 16:50:42,606 - INFO - Total: 0.0003
+2025-05-31 16:50:42,606 - INFO - SGitLine:
+2025-05-31 16:50:42,606 - INFO - Compare: 0.03166
+2025-05-31 16:50:42,606 - INFO - Enc + update: 0.00012
+2025-05-31 16:50:42,606 - INFO - Total: 0.03178
+2025-05-31 16:50:42,606 - INFO - Git-crypt: 0.00019
+2025-05-31 16:50:42,606 - INFO - Trivial-enc-sign: 0.00077

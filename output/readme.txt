@@ -1,0 +1,1 @@
+It will store the Git repositories in plaintext form and ciphertext form, and some intermediate files.

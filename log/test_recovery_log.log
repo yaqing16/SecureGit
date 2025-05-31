@@ -1,0 +1,96 @@
+2025-05-28 10:56:11,364 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 10:56:11,364 - INFO - Repo: awesome
+2025-05-28 10:56:11,364 - INFO - SGitChar: 0.0001
+2025-05-28 10:56:11,364 - INFO - SGitLine: 0.0048
+2025-05-28 10:56:11,364 - INFO - Git-crypt: 0.0001
+2025-05-28 10:56:11,364 - INFO - Trivial-enc-sign: 0.0008
+2025-05-28 10:57:54,583 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 10:57:54,583 - INFO - Repo: free-programming-books
+2025-05-28 10:57:54,583 - INFO - SGitChar: 0.0002
+2025-05-28 10:57:54,583 - INFO - SGitLine: 0.0029
+2025-05-28 10:57:54,583 - INFO - Git-crypt: 0.0001
+2025-05-28 10:57:54,583 - INFO - Trivial-enc-sign: 0.0058
+2025-05-28 11:01:24,130 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 11:01:24,130 - INFO - Repo: bootstrap
+2025-05-28 11:01:24,130 - INFO - SGitChar: 0.0013
+2025-05-28 11:01:24,130 - INFO - SGitLine: 0.0322
+2025-05-28 11:01:24,130 - INFO - Git-crypt: 0.0003
+2025-05-28 11:01:24,130 - INFO - Trivial-enc-sign: 0.0237
+2025-05-28 11:06:38,461 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 11:06:38,461 - INFO - Repo: react
+2025-05-28 11:06:38,461 - INFO - SGitChar: 0.0005
+2025-05-28 11:06:38,461 - INFO - SGitLine: 0.014
+2025-05-28 11:06:38,461 - INFO - Git-crypt: 0.0002
+2025-05-28 11:06:38,461 - INFO - Trivial-enc-sign: 0.0976
+2025-05-28 11:08:40,820 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 11:08:40,820 - INFO - Repo: DocRepo
+2025-05-28 11:08:40,820 - INFO - SGitChar: 0.0007
+2025-05-28 11:08:40,821 - INFO - SGitLine: 0.0073
+2025-05-28 11:08:40,821 - INFO - Git-crypt: 0.0002
+2025-05-28 11:08:40,821 - INFO - Trivial-enc-sign: 0.0031
+2025-05-28 11:13:57,218 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-28 11:13:57,218 - INFO - Repo: DocRepo
+2025-05-28 11:13:57,218 - INFO - SGitChar: 0.0007
+2025-05-28 11:13:57,218 - INFO - SGitLine: 0.0074
+2025-05-28 11:13:57,218 - INFO - Git-crypt: 0.0002
+2025-05-28 11:13:57,218 - INFO - Trivial-enc-sign: 0.003
+2025-05-29 15:32:04,707 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:32:04,707 - INFO - Repo: awesome
+2025-05-29 15:32:04,707 - INFO - SGitChar: 0.0002
+2025-05-29 15:32:04,707 - INFO - SGitLine: 0.0053
+2025-05-29 15:32:04,707 - INFO - Git-crypt: 0.0001
+2025-05-29 15:32:04,707 - INFO - Trivial-enc-sign: 0.001
+2025-05-29 15:32:04,758 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:32:04,758 - INFO - Repo: awesome
+2025-05-29 15:32:04,758 - INFO - SGitChar: 0.0002
+2025-05-29 15:32:04,758 - INFO - SGitLine: 0.0054
+2025-05-29 15:32:04,758 - INFO - Git-crypt: 0.0001
+2025-05-29 15:32:04,758 - INFO - Trivial-enc-sign: 0.0009
+2025-05-29 15:32:40,874 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:32:40,874 - INFO - Repo: free-programming-books
+2025-05-29 15:32:40,874 - INFO - SGitChar: 0.0002
+2025-05-29 15:32:40,874 - INFO - SGitLine: 0.0031
+2025-05-29 15:32:40,874 - INFO - Git-crypt: 0.0001
+2025-05-29 15:32:40,875 - INFO - Trivial-enc-sign: 0.0061
+2025-05-29 15:34:25,305 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:34:25,305 - INFO - Repo: bootstrap
+2025-05-29 15:34:25,305 - INFO - SGitChar: 0.0014
+2025-05-29 15:34:25,305 - INFO - SGitLine: 0.0328
+2025-05-29 15:34:25,305 - INFO - Git-crypt: 0.0003
+2025-05-29 15:34:25,306 - INFO - Trivial-enc-sign: 0.0246
+2025-05-29 15:38:17,445 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:38:17,445 - INFO - Repo: react
+2025-05-29 15:38:17,445 - INFO - SGitChar: 0.0005
+2025-05-29 15:38:17,445 - INFO - SGitLine: 0.0142
+2025-05-29 15:38:17,445 - INFO - Git-crypt: 0.0002
+2025-05-29 15:38:17,445 - INFO - Trivial-enc-sign: 0.1014
+2025-05-29 15:49:48,646 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:49:48,646 - INFO - Repo: DocRepo
+2025-05-29 15:49:48,646 - INFO - SGitChar: 0.0006
+2025-05-29 15:49:48,646 - INFO - SGitLine: 0.0068
+2025-05-29 15:49:48,646 - INFO - Git-crypt: 0.0003
+2025-05-29 15:49:48,646 - INFO - Trivial-enc-sign: 0.003
+2025-05-29 15:51:28,286 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 15:51:28,286 - INFO - Repo: freeCodeCamp
+2025-05-29 15:51:28,287 - INFO - SGitChar: 0.0021
+2025-05-29 15:51:28,287 - INFO - SGitLine: 0.0368
+2025-05-29 15:51:28,287 - INFO - Git-crypt: 0.0005
+2025-05-29 15:51:28,287 - INFO - Trivial-enc-sign: 0.0
+2025-05-29 16:21:30,340 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-29 16:21:30,340 - INFO - Repo: freeCodeCamp
+2025-05-29 16:21:30,340 - INFO - SGitChar: 0.0024
+2025-05-29 16:21:30,340 - INFO - SGitLine: 0.0377
+2025-05-29 16:21:30,340 - INFO - Git-crypt: 0.0006
+2025-05-29 16:21:30,340 - INFO - Trivial-enc-sign: 1.3284
+2025-05-31 00:30:04,137 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-31 00:30:04,137 - INFO - Repo: awesome
+2025-05-31 00:30:04,137 - INFO - SGitChar: 0.0002
+2025-05-31 00:30:04,137 - INFO - SGitLine: 0.005
+2025-05-31 00:30:04,137 - INFO - Git-crypt: 0.0001
+2025-05-31 00:30:04,137 - INFO - Trivial-enc-sign: 0.0014
+2025-05-31 11:06:48,444 - INFO - The computation costs of recovery shown in Table 4 (s):
+2025-05-31 11:06:48,445 - INFO - Repo: free-programming-books
+2025-05-31 11:06:48,445 - INFO - SGitChar: 0.0003
+2025-05-31 11:06:48,445 - INFO - SGitLine: 0.0031
+2025-05-31 11:06:48,445 - INFO - Git-crypt: 0.0001
+2025-05-31 11:06:48,445 - INFO - Trivial-enc-sign: 0.0074
