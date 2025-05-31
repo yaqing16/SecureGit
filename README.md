@@ -1,6 +1,6 @@
 Paper title: **End-to-End Encrypted Git Services**
 
-### Software version:
+## Software version:
 
 git version 2.47.1.windows.1 (choose install Git Bash in the pop-up window)
 Please refer to https://git-scm.com/downloads.
@@ -9,9 +9,9 @@ Python 3.11.2
 
 pip3 24.3.1
 
-### Setup instructions:
+## Setup instructions:
 
-#### Installation: 
+### Installation: 
 
 We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
 
@@ -31,7 +31,7 @@ We recommend to use the Windows system to evaluate the artifacts, since we condu
    3) `pip install cryptography`
    4) `pip install diff-match-patch`
 
-#### Basic test: 
+### Basic test: 
 
 1) `cd .../SecureGit`
 
@@ -42,12 +42,12 @@ shown below.
 
 ![img.png](img.png)
 
-### Preparation instructions:
+## Preparation instructions:
 Copy the Github token provided in Appdendix and parse it to the parameter $token$ in `SecureGit/src/lib/config.py`.
 
-### E1: Experiment on communication costs of an update
+## E1: Experiment on communication costs of an update
 
-#### Instructions:
+### Instructions:
 The parameter `REPO` in `src/eval/test_update_comm.py` can be set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, 
 respectively.
 
@@ -79,12 +79,12 @@ the program to abort when the test is run in a loop.
 
 The results are recorded in `log/test_update_comm_log.log` and `log/test_FCC_comm_log.log`.
 
-#### Result: 
+### Result: 
 It will output the average communication costs for ten random updates of each repository under the four methods.
 
-### E2: Experiment on computation costs of an update
+## E2: Experiment on computation costs of an update
 
-#### Instructions:
+### Instructions:
 
 Make sure `output/test_upate_comp/{REPO}` is an empty folder.
 
@@ -93,15 +93,15 @@ Please navigate to the `SecureGit/` directory before running.
 Run `python -m src.eval.test_update_comp`, where the parameter `REPO` in `src/eval/test_update_comp.py` is set 
 to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
 
-#### Result: 
+### Result: 
 It outputs the average computation costs for ten random updates of each repository. 
 
 The result will be recorded in `log/test_update_comp_log.log`.
 
 
-### E3: Experiment on storage costs
+## E3: Experiment on storage costs
 
-#### Instructions:
+### Instructions:
 
 Make sure `output/test_storage/{REPO}` is an empty folder and the repository is at the lasted commit.
 
@@ -110,14 +110,14 @@ Please navigate to the `SecureGit/` directory before running.
 Run `python -m src.eval.test_storage`, where the parameter `REPO` in `src/eval/test_storage.py` is set to 
 `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
-#### Result:
+### Result:
 It outputs the size of the ciphertext repositories after 10, 20, 30, 40, 50 updates from the initial version.
 
 The result will be recorded in `log/test_storage_log.log`.
 
-### E4: Experiment on computation costs of recovery
+## E4: Experiment on computation costs of recovery
 
-#### Instructions:
+### Instructions:
 
 First, test E2, as E4 takes E2's output as its input. 
 
@@ -126,13 +126,13 @@ Please navigate to the `SecureGit/` directory before running.
 Run `python -m src.eval.test_recovery_time`, where the parameter `REPO` in `src/eval/test_recovery_time.py`
 is set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
-#### Result:
+### Result:
 
 It outputs the average computation costs of recovering one version of each repository. 
 
 The result will be recorded in `log/test_recovery_log.log`.
 
-### Note:
+## Note:
 
 During execution, users may encounter a warning message similar to:
 
