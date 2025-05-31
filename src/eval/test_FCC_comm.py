@@ -85,6 +85,8 @@ def test(REPO, commit_sha, i):
     comm_cost_trivial = get_pack_size(output_trivial)
     print(comm_cost_trivial)
 
+    repo.git.checkout(Latest_commit[REPO])
+
 
     return comm_cost_trivial
 

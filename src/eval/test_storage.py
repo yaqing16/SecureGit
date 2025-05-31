@@ -53,6 +53,8 @@ def test(REPO, number):
     repo_plain = Repo(repo_plain_path)
     repo_trivial = Repo(repo_cipher_path_trivial)
 
+    repo.git.checkout(Latest_commit[REPO])
+
     all_commits = []
 
 
@@ -202,6 +204,6 @@ if __name__ == '__main__':
     '''
         set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively
     '''
-    REPO = bootstrap # set
+    REPO = awesome # set
     commit_number = 51
     test(REPO, commit_number)
