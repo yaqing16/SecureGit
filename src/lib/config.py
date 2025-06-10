@@ -143,3 +143,8 @@ def remoteurl_init(REPO):
 
 def remoteurl_e2e(REPO):
     return f'https://{token}@github.com/hymanww/{REPO}-e2e.git'
+
+def set_Git_Config(repo):
+    with repo.config_writer(config_level='repository') as git_config:
+        git_config.set_value('user', 'name', 'SecureGit')
+        git_config.set_value('user', 'email', 'SecureGit@example.com')
