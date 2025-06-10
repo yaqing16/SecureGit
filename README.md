@@ -1,6 +1,8 @@
 Paper title: **End-to-End Encrypted Git Services**
 
-## Software version:
+## Environment and dependencies:
+
+We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
 
 git version 2.47.1.windows.1 (choose install Git Bash in the pop-up window)
 Please refer to https://git-scm.com/downloads.
@@ -9,17 +11,22 @@ Python 3.11.2
 
 pip3 24.3.1
 
+Make sure the required packages have been installed; if not, you can install them using the following commands: 
+
+   1) `pip install GitPython`
+   2) `pip install pycryptodome`
+   3) `pip install cryptography`
+   4) `pip install diff-match-patch`
+
 ## Setup instructions:
 
-### Preparation:
-
-Copy the Github token provided in Appdendix and parse it to the parameter $token$ in `SecureGit/src/lib/config.py`.
-
 ### Installation: 
+1. First, download the artifact. There are two ways to access the artifact.
+   
+   1) Run `git clone https://github.com/yaqing16/SecureGit`.
+   2) Download the `.zip` package from Zenodo and unpack the files into a folder called `SecureGit`.
 
-We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
-
-1. First, download the real repositories from Github by running the following commands in Git bash. 
+3. Download the real repositories from Github by running the following commands in Git bash. 
 
    1) `cd .../SecureGit/dataset`
    2) `git clone https://github.com/sindresorhus/awesome.git`
@@ -27,13 +34,10 @@ We recommend to use the Windows system to evaluate the artifacts, since we condu
    4) `git clone https://github.com/twbs/bootstrap.git`
    5) `git clone https://github.com/facebook/react.git`
    6) `git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
+      
+### Preparation:
 
-2. Make sure the required packages have been installed; if not, you can install them using the following commands: 
-
-   1) `pip install GitPython`
-   2) `pip install pycryptodome`
-   3) `pip install cryptography`
-   4) `pip install diff-match-patch`
+Copy the Github token provided in Appdendix and paste it to the parameter $token$ in `SecureGit/src/lib/config.py`.
 
 ### Basic test: 
 
