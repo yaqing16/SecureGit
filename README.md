@@ -91,7 +91,7 @@ Make sure `output/test_upate_comp/{REPO}` is an empty folder.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_update_time`, where the parameter `REPO` in `src/eval/test_update_comp.py` is set 
+Run `python -m src.eval.test_update_time`, where the parameter `REPO` in `src/eval/test_update_time.py` is set 
 to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
 
 ### Result: 
