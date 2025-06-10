@@ -97,7 +97,7 @@ to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 ### Result: 
 It outputs the average computation costs for ten random updates of each repository. 
 
-The result will be recorded in `log/test_update_comp_log.log`.
+The result will be recorded in `log/test_update_time_log.log`.
 
 
 ## E3: Experiment on storage costs
