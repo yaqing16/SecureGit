@@ -11,7 +11,7 @@ Python 3.11.2
 
 pip3 24.3.1
 
-Make sure the required packages have been installed; if not, you can install them using the following commands: 
+Make sure the required packages, including `GitPython`, `pycryptodome`, `cryptography`, and `diff-match-patch`, have been installed; if not, you can install them using the following commands: 
 
    1) `pip install GitPython`
    2) `pip install pycryptodome`
