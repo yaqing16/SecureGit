@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
     result = [0] * 5
 
-    test_num = 1
+    test_num = 10
 
     '''
         set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively, to evaluate the performace on 

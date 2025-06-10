@@ -37,7 +37,10 @@ def test(REPO, commit_sha, i):
 
     repo = Repo(repository_path)
 
+
     repo_trivial = Repo(repo_cipher_path_trivial)
+
+    set_Git_Config(repo_trivial)
 
     msg_upd = 'update'
 
@@ -56,8 +59,8 @@ def test(REPO, commit_sha, i):
 
     run_time = copy_repo_and_enc_files(repository_path, repo_cipher_path_trivial)
     # print("enc finish")
-    repo_cipher = Repo(repo_cipher_path_trivial)
-    repo_cipher.index.add(['.'])
+    # repo_cipher = Repo(repo_cipher_path_trivial)
+    repo_trivial.index.add(['.'])
     # repo_cipher.index.commit(msg)
     # all_files = []
     # batch_size = 1000
@@ -75,7 +78,7 @@ def test(REPO, commit_sha, i):
     #     print(f"Added batch {i // batch_size + 1} with {len(batch)} files")
     # repo_cipher.index.add(['.'])
     print("trivial all")
-    repo_cipher.index.commit(msg_upd)
+    repo_trivial.index.commit(msg_upd)
     print("trivial commit")
 
     repo_trivial.git.branch('-M', 'trivial')
@@ -84,8 +87,6 @@ def test(REPO, commit_sha, i):
     print(output_trivial)
     comm_cost_trivial = get_pack_size(output_trivial)
     print(comm_cost_trivial)
-
-    repo.git.checkout(Latest_commit[REPO])
 
 
     return comm_cost_trivial

@@ -204,6 +204,6 @@ if __name__ == '__main__':
     '''
         set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively
     '''
-    REPO = awesome # set
+    REPO = awesome 
     commit_number = 51
     test(REPO, commit_number)

@@ -53,6 +53,12 @@ def test(REPO, commit_sha, i):
     repo_plain = Repo(repo_plain_path)
     repo_trivial = Repo(repo_cipher_path_trivial)
 
+    set_Git_Config(repo_line)
+    set_Git_Config(repo_patch)
+    set_Git_Config(repo_file)
+    set_Git_Config(repo_plain)
+    set_Git_Config(repo_trivial)
+
 
     sum_plain, sum_line, sum_patch, sum_DE, sum_trivial = 0, 0, 0, 0, 0
 

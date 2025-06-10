@@ -53,8 +53,15 @@ def test(REPO):
     repo_file = Repo(repo_cipher_path_file)
     repo_trivial = Repo(repo_cipher_path_trivial)
 
+    set_Git_Config(repo)
+    set_Git_Config(repo_line)
+    set_Git_Config(repo_patch)
+    set_Git_Config(repo_file)
+    set_Git_Config(repo_trivial)
+
     all_commits = []
 
+    repo.git.checkout(Latest_commit[REPO])
 
     for commit in repo.iter_commits():
         all_commits.append(commit.hexsha)

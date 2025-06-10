@@ -11,6 +11,10 @@ pip3 24.3.1
 
 ## Setup instructions:
 
+### Preparation:
+
+Copy the Github token provided in Appdendix and parse it to the parameter $token$ in `SecureGit/src/lib/config.py`.
+
 ### Installation: 
 
 We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
@@ -41,9 +45,6 @@ If successfully install, logs will be generated in `SecureGit/log/basic_test_log
 shown below.
 
 ![img.png](img.png)
-
-## Preparation instructions:
-Copy the Github token provided in Appdendix and parse it to the parameter $token$ in `SecureGit/src/lib/config.py`.
 
 ## E1: Experiment on communication costs of an update
 
@@ -90,7 +91,7 @@ Make sure `output/test_upate_comp/{REPO}` is an empty folder.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_update_comp`, where the parameter `REPO` in `src/eval/test_update_comp.py` is set 
+Run `python -m src.eval.test_update_time`, where the parameter `REPO` in `src/eval/test_update_comp.py` is set 
 to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
 
 ### Result: 
@@ -131,6 +132,21 @@ is set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 It outputs the average computation costs of recovering one version of each repository. 
 
 The result will be recorded in `log/test_recovery_log.log`.
+
+## Other Experiment
+
+### Instructions:
+
+Please navigate to the `SecureGit/` directory before running.
+
+Run `python -m src.eval.test_init`, where the parameter `REPO` in `src/eval/test_init.py`
+is set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
+
+### Result:
+
+It outputs the average computation and communication costs of initializing the first version of each repository. 
+
+The result will be recorded in `log/test_init_log.log`.
 
 ## Note:
 

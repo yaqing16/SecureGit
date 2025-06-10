@@ -97,6 +97,12 @@ def test_comm(REPO):
     repo_file = Repo(repo_cipher_path_file)
     repo_trivial = Repo(repo_cipher_path_trivial)
 
+
+    set_Git_Config(repo_line)
+    set_Git_Config(repo_patch)
+    set_Git_Config(repo_file)
+    set_Git_Config(repo_trivial)
+
     commit_init = repo.commit(First_commit[REPO])
 
     msg = commit_init.message.strip()
@@ -110,6 +116,7 @@ def test_comm(REPO):
     repo.git.checkout(First_commit[REPO])
     Repo.init(repo_plain_path)
     repo_plain = Repo(repo_plain_path)
+    set_Git_Config(repo_plain)
     copy_repo_and_files(repository_path, repo_plain_path)
     repo_plain.git.add('--all')
     repo_plain.index.commit(msg)
