@@ -53,19 +53,17 @@ shown below.
 ## E1: Experiment on communication costs of an update
 
 ### Instructions:
-The parameter `REPO` in `src/eval/test_update_comm.py` can be set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, 
-respectively.
 
 Make sure `output/test_upate_comm/{REPO}` is an empty folder.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_update_comm`, where the parameter `REPO` in `src/eval/test_update_comm.py` is 
+Run `python -m src.eval.test_update_comm --repo repo_name`, where the parameter `repo_name` can be 
 set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
 
-**Note:** Please comment out the following code in src/eval/test_update_comm.py, when the parameter `REPO` in `src/eval/test_update_comm.py` is set to `FCC`,
+**Note:** Please comment out the following code in src/eval/test_update_comm.py, when running `python -m src.eval.test_update_comm --repo FCC`, 
 to get the communication cost of SGitChar, SGitLine, and Git-crypt.
-For Trivial-enc-sign, run `python -m src.eval.test_FCC_comm`, where the parameter $index$ is set to 0~9, respectively, 
+For Trivial-enc-sign, run `python -m src.eval.test_FCC_comm --index num`, where the parameter `num` is set to 0~9, respectively, 
 to get the result of each commit. This is because the Trivial-enc-sign approach consumes too much memory and may cause 
 the program to abort when the test is run in a loop.
 
@@ -85,7 +83,7 @@ the program to abort when the test is run in a loop.
 ### Result: 
 It will output the average communication costs for ten random updates of each repository under the four methods.
 
-The result will be recorded in `log/test_update_comm_log.log` and `log/test_FCC_comm_log.log`.
+The result will be recorded in `evaluationlog/test_update_comm_log.log` and `evaluationlog/test_FCC_comm_log.log`.
 
 ## E2: Experiment on computation costs of an update
 
@@ -95,30 +93,30 @@ Make sure `output/test_upate_comp/{REPO}` is an empty folder.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_update_time`, where the parameter `REPO` in `src/eval/test_update_time.py` is set 
-to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively. 
+Run `python -m src.eval.test_update_time --repo repo_name`, where the parameter `repo_name` can be 
+set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
 ### Result: 
 It outputs the average computation costs for ten random updates of each repository. 
 
-The result will be recorded in `log/test_update_time_log.log`.
+The result will be recorded in `evaluationlog/test_update_time_log.log`.
 
 
 ## E3: Experiment on storage costs
 
 ### Instructions:
 
-Make sure `output/test_storage/{REPO}` is an empty folder and the repository is at the lasted commit.
+Make sure `output/test_storage/{REPO}` is an empty folder.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_storage`, where the parameter `REPO` in `src/eval/test_storage.py` is set to 
-`awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
+Run `python -m src.eval.test_storage --repo repo_name`, where the parameter `repo_name` can be 
+set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
 ### Result:
 It outputs the size of the ciphertext repositories after 10, 20, 30, 40, 50 updates from the initial version.
 
-The result will be recorded in `log/test_storage_log.log`.
+The result will be recorded in `evaluationlog/test_storage_log.log`.
 
 ## E4: Experiment on computation costs of recovery
 
@@ -128,29 +126,52 @@ First, test E2, as E4 takes E2's output as its input.
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_recovery_time`, where the parameter `REPO` in `src/eval/test_recovery_time.py`
-is set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
+Run `python -m src.eval.test_recovery_time --repo repo_name`, where the parameter `repo_name` can be 
+set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
 ### Result:
 
 It outputs the average computation costs of recovering one version of each repository. 
 
-The result will be recorded in `log/test_recovery_log.log`.
+The result will be recorded in `evaluationlog/test_recovery_log.log`.
 
-## Other Experiment
+## Other experiments
 
 ### Instructions:
 
 Please navigate to the `SecureGit/` directory before running.
 
-Run `python -m src.eval.test_init`, where the parameter `REPO` in `src/eval/test_init.py`
-is set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
+Run `python -m src.eval.test_init --repo repo_name`, where the parameter `repo_name` can be 
+set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
 
 ### Result:
 
 It outputs the average computation and communication costs of initializing the first version of each repository. 
 
-The result will be recorded in `log/test_init_log.log`.
+The result will be recorded in `evaluationlog/test_init_log.log`.
+
+### Instructions of creating the figures
+
+Please navigate to the `SecureGit/` directory before running. 
+
+Run `python -m src.pic.pic_reponame`, where the parameter `reponame` can be 
+set to `awesome`, `FPB`, `bootstrap`, `react`, `FCC`, `DocRepo`, respectively.
+
+### Result:
+
+It will present the figures that show the stroage costs.
+
+The figures will be stored in `pic/`.
+
+## Instructions for result analysis
+
+For clarity, our experiment results are provided in the `.log` files in the `log` folder, and the logs of artifact evaluation
+results will be recorded in the `evaluationlog` folder. 
+
+Due to differences in machine specifications (e.g., CPU, memory, disk I/O, or network performance), the exact numerical results obtained 
+when running the artifact may vary slightly across different environments. 
+However, the relative comparison between key experimental results should remain consistent. Therefore, the main claims can be verified 
+by checking whether the relative ordering or trends observed in experiments match those reported in the paper.
 
 ## Note:
 
@@ -163,4 +184,3 @@ This warning is raised by Python's internal `subprocess` module during garbage c
 typically when a `Popen` object is deleted while the interpreter is shutting down. 
 It is a known benign issue that can occur in some Python versions and does not affect the correctness or 
 output of the experiments. Users can safely ignore this message.
-
