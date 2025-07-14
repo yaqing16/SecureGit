@@ -1,6 +1,7 @@
 from src.lib.config import *
 from src.lib.repo_operation import *
 import logging
+import argparse
 
 base_dir = Path(__file__).parent
 
@@ -8,7 +9,7 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log' / 'test_recovery_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog' / 'test_recovery_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -76,47 +77,37 @@ def main(REPO, commit_SHA):
     return result
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Evaluate recovery computation costs.')
+    parser.add_argument('--repo', required=True, help='Repository name: awesome, FPB, bootstrap, react, FCC')
+    args = parser.parse_args()
+
+    repo_map = {
+        'awesome': awesome,
+        'FPB': FPB,
+        'bootstrap': bootstrap,
+        'react': react,
+        'FCC': FCC,
+    }
+
+    if args.repo not in repo_map:
+        raise ValueError(f"Unknown repo '{args.repo}'. Must be one of: {', '.join(repo_map)}")
+
+    REPO = repo_map[args.repo]
+    commit_SHA = repo_commit_map[REPO]
 
     result = [0] * 5
-
     test_num = 10
-
-    '''
-        set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively, to evaluate the performace on 
-        each repositories.
-    '''
-
-    REPO = FPB # choose one repo
-    commit_SHA = repo_commit_map[REPO]
 
     for _ in range(test_num):
         result = [sum(x) for x in zip(result, main(REPO, commit_SHA))]
 
     result = [round(x / test_num, 4) for x in result]
 
-    # result = [line_run_time, comp_diff, diff_enc, line_delta_cipher,
-    #           patch_run_time, comp_patch, patch_enc, patch_delta_cipher,
-    #           file_run_time, file_enc_time, file_delta_cipher]
-
     logging.info('The computation costs of recovery shown in Table 4 (s):')
-
     logging.info('Repo: %s', REPO)
-
     logging.info('SGitChar: %s', result[1])
-
     logging.info('SGitLine: %s', result[0])
-
     logging.info('Git-crypt: %s', result[2])
-
     logging.info('Trivial-enc-sign: %s', result[3])
 
     # print('SGitLine (using git diff):', result[4])
-
-
-
-
-
-
-
-
-

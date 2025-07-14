@@ -1,1 +1,1 @@
-Please store the public warehouse here.
+Please store the public repositories here.

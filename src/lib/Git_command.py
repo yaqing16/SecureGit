@@ -181,6 +181,7 @@ def test():
     # example
     repository_path = 'path'
     repo = Repo(repository_path)
+    commit_sha = ''
     result = Get_git_diff(repo, commit_sha)
 
     repository = Repo(repository_path)

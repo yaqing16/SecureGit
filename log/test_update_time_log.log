@@ -154,30 +154,6 @@
 2025-05-29 15:24:18,918 - INFO - Total: 0.03493
 2025-05-29 15:24:18,918 - INFO - Git-crypt: 0.00083
 2025-05-29 15:24:18,919 - INFO - Trivial-enc-sign: 0.60453
-2025-05-30 15:53:14,459 - INFO - Repo: awesome
-2025-05-30 15:53:14,459 - INFO - Communication cots of an update (KB):
-2025-05-30 15:53:14,460 - INFO - SGitChar: 0.513671875
-2025-05-30 15:53:14,460 - INFO - SGitLine: 0.4501953125
-2025-05-30 15:53:14,460 - INFO - Git-crypt: 1.22
-2025-05-30 15:53:14,460 - INFO - Trivial-enc-sign (MB): 1.24
-2025-05-30 15:53:14,556 - INFO - Repo: awesome
-2025-05-30 15:53:14,556 - INFO - Computation cots of recovering one version (KB):
-2025-05-30 15:53:14,556 - INFO - SGitChar: 0.007622999997693114
-2025-05-30 15:53:14,556 - INFO - SGitLine: 0.0003271000023232773
-2025-05-30 15:53:14,557 - INFO - Git-crypt: 6.53000024612993e-05
-2025-05-30 15:53:14,557 - INFO - Trivial-enc-sign: 3.989999822806567e-05
-2025-05-31 00:20:53,404 - INFO - Repo: awesome
-2025-05-31 00:20:53,405 - INFO - Communication cots of an update (KB):
-2025-05-31 00:20:53,405 - INFO - SGitChar: 0.5087890625
-2025-05-31 00:20:53,405 - INFO - SGitLine: 0.44921875
-2025-05-31 00:20:53,405 - INFO - Git-crypt: 1.22
-2025-05-31 00:20:53,405 - INFO - Trivial-enc-sign (MB): 1.24
-2025-05-31 00:20:53,474 - INFO - Repo: awesome
-2025-05-31 00:20:53,474 - INFO - Computation cots of recovering one version (KB):
-2025-05-31 00:20:53,474 - INFO - SGitChar: 0.007419300003675744
-2025-05-31 00:20:53,474 - INFO - SGitLine: 0.0003171999996993691
-2025-05-31 00:20:53,475 - INFO - Git-crypt: 6.120000034570694e-05
-2025-05-31 00:20:53,475 - INFO - Trivial-enc-sign: 4.47999918833375e-05
 2025-05-31 00:29:02,685 - INFO - The computation costs of update shown in Table 3 (s):
 2025-05-31 00:29:02,686 - INFO - Repo: awesome
 2025-05-31 00:29:02,686 - INFO - SGitChar:

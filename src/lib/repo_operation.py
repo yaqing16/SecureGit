@@ -187,7 +187,7 @@ def Init_for_Trivial(project_path, encrypt_path, msg, flag):
     # print("trivial all")
     # repo_cipher.index.commit(msg)
     # print("trivial commit")
-    return run_time + sign_time
+    return run_time, sign_time
 
 def Init_for_DE(project_path, encrypt_path, msg, flag):
     run_time = copy_repo_and_enc_DE(project_path, encrypt_path)
@@ -318,7 +318,7 @@ def update_line_diff(repo_path, cipher_path, choice_commit, msg, flag, test_num=
         sign_time = end_sign - start_sign
     # print(signature)
         repo_cipher.git.commit('--amend', '--allow-empty', '-m', f"{signature}")
-    return end - start - rw_time - add_rw_time + diff_run_time + sign_time, diff_run_time, sum_enc_time + sum_update_ct_time, cipher_delta_len
+    return end - start - rw_time - add_rw_time + diff_run_time + sign_time, diff_run_time, sum_enc_time + sum_update_ct_time, sign_time
 
 
 def update_patch_diff(repo_path, cipher_path, choice_commit, msg, flag, test_num = 1):
@@ -332,10 +332,7 @@ def update_patch_diff(repo_path, cipher_path, choice_commit, msg, flag, test_num
     repo_cipher = Path(cipher_path)
     repo_plain = Path(repo_path)
 
-
     sign_time = 0
-
-
 
     if result == '':
         repo_cipher = Repo(cipher_path)
@@ -434,7 +431,8 @@ def update_patch_diff(repo_path, cipher_path, choice_commit, msg, flag, test_num
         sign_time = end_sign - start_sign
         # print(signature)
         repo_cipher.git.commit('--amend', '--allow-empty', '-m', f"{signature}")
-    return end - start - rw_time - add_rw_time + sign_time, comp_patch_time, sum_enc_time, cipher_delta_len
+    return end - start - rw_time - add_rw_time + sign_time, comp_patch_time, sum_enc_time, sign_time
+
 
 
 def update_file_diff(repo_path, cipher_path, choice_commit, msg, flag, test_num=1):

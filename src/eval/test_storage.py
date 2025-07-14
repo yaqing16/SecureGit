@@ -3,6 +3,7 @@ from src.lib.repo_operation import *
 from src.lib.file_operation import *
 from pathlib import Path
 import logging
+import argparse
 
 base_dir = Path(__file__).parent
 
@@ -10,7 +11,7 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log' / 'test_storage_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog' / 'test_storage_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -201,9 +202,22 @@ def test(REPO, number):
     repo.git.checkout(all_commits[0])
 
 if __name__ == '__main__':
-    '''
-        set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively
-    '''
-    REPO = awesome 
+    parser = argparse.ArgumentParser(description='Measure storage costs.')
+    parser.add_argument('--repo', required=True, help='Repository name: awesome, FPB, bootstrap, react, FCC')
+    args = parser.parse_args()
+
+    repo_map = {
+        'awesome': awesome,
+        'FPB': FPB,
+        'bootstrap': bootstrap,
+        'react': react,
+        'FCC': FCC,
+    }
+
+    if args.repo not in repo_map:
+        raise ValueError(f"Unknown repo '{args.repo}'. Must be one of: {', '.join(repo_map)}")
+
+    REPO = repo_map[args.repo]
     commit_number = 51
+
     test(REPO, commit_number)

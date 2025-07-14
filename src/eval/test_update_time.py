@@ -1,11 +1,12 @@
 from src.lib.config import *
 from src.lib.repo_operation import *
 import logging
+import argparse
 
 base_dir = Path(__file__).parent
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log' / 'test_update_time_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog' / 'test_update_time_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -139,15 +140,33 @@ def main(REPO, commit_SHA, test_num):
 
 if __name__ == '__main__':
 
+    parser = argparse.ArgumentParser(description='Evaluate update computation cost for a given repo.')
+    parser.add_argument('--repo', required=True,
+                        help='Repository name to test, e.g., awesome, FPB, bootstrap, react, FCC')
+    #parser.add_argument('--test-num', type=int, default=1, help='Number of times to repeat the test (default: 1)')
+    args = parser.parse_args()
+
+    repo_map = {
+        'awesome': awesome,
+        'FPB': FPB,
+        'bootstrap': bootstrap,
+        'react': react,
+        'FCC': FCC,
+    }
+
+    if args.repo not in repo_map:
+        raise ValueError(f"Unknown repo '{args.repo}'. Must be one of: {', '.join(repo_map)}")
+
     # result = [0] * 12
 
     test_num = 10
 
-    '''
-        set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively, to evaluate the performace on 
-        each repositories.
-    '''
-    REPO = awesome  # choose one repo
+    # '''
+    #     set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively, to evaluate the performace on
+    #     each repositories.
+    # '''
+    # REPO = awesome  # choose one repo
+    REPO = repo_map[args.repo]
     commit_SHA = repo_commit_map[REPO]
 
     result = main(REPO, commit_SHA, test_num)

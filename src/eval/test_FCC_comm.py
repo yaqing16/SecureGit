@@ -2,6 +2,7 @@ from src.lib.config import *
 from src.lib.repo_operation import *
 from src.lib.file_operation import *
 import logging
+import argparse
 
 base_dir = Path(__file__).parent
 
@@ -10,7 +11,7 @@ for handler in logging.root.handlers[:]:
 
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log' / 'test_FCC_comm_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog' / 'test_FCC_comm_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -57,10 +58,21 @@ def test(REPO, commit_sha, i):
 
     # Trivial
 
-    run_time = copy_repo_and_enc_files(repository_path, repo_cipher_path_trivial)
+    #run_time = copy_repo_and_enc_files(repository_path, repo_cipher_path_trivial)
+
+    # Trivial
+    trivial_enc_time, trivial_sign_time = Init_for_Trivial(repository_path, repo_cipher_path_trivial, msg_upd, GENSIGN)
+    repo_trivial.git.branch('-M', 'trivial')
+    repo_trivial.create_remote('origin', url)
+    output_trivial, push_time_trivial = git_push_with_details(repo_cipher_path_trivial, 'trivial')
+    print(output_trivial)
+    comm_cost_trivial = get_pack_size(output_trivial)
+    print(comm_cost_trivial)
+    e2e_time_trivial = trivial_enc_time + trivial_sign_time + push_time_trivial
+
     # print("enc finish")
     # repo_cipher = Repo(repo_cipher_path_trivial)
-    repo_trivial.index.add(['.'])
+    # repo_trivial.index.add(['.'])
     # repo_cipher.index.commit(msg)
     # all_files = []
     # batch_size = 1000
@@ -77,40 +89,53 @@ def test(REPO, commit_sha, i):
     #     repo_cipher.index.add(batch)
     #     print(f"Added batch {i // batch_size + 1} with {len(batch)} files")
     # repo_cipher.index.add(['.'])
-    print("trivial all")
-    repo_trivial.index.commit(msg_upd)
-    print("trivial commit")
+    # print("trivial all")
+    # repo_trivial.index.commit(msg_upd)
+    # print("trivial commit")
 
-    repo_trivial.git.branch('-M', 'trivial')
-    repo_trivial.create_remote('origin', url)
-    output_trivial, push_time_trivial = git_push_with_details(repo_cipher_path_trivial, 'trivial')
-    print(output_trivial)
-    comm_cost_trivial = get_pack_size(output_trivial)
-    print(comm_cost_trivial)
+    # repo_trivial.git.branch('-M', 'trivial')
+    # repo_trivial.create_remote('origin', url)
+    # output_trivial, push_time_trivial = git_push_with_details(repo_cipher_path_trivial, 'trivial')
+    # print(output_trivial)
+    # comm_cost_trivial = get_pack_size(output_trivial)
+    # print(comm_cost_trivial)
+
+    logging.info('index %s', i)
+
+    logging.info('Trivial-enc-sign %s', round(e2e_time_trivial, 4))
+
+    logging.info('Trivial-enc-sign - enc %s', round(trivial_enc_time, 4))
+
+    logging.info('Trivial-enc-sign - sign %s', round(trivial_sign_time, 4))
+
+    logging.info('Trivial-enc-sign - push %s', round(push_time_trivial, 4))
+
+    logging.info('The communication costs of an update (KB):')
+
+
+    logging.info('Trivial-enc-sign (MB): %s', round(comm_cost_trivial / 1024, 4))
 
 
     return comm_cost_trivial
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Evaluate communication cost of a specific commit index.')
+    parser.add_argument('--index', type=int, required=True, help='Index from 0 to 9 for commit selection.')
+    args = parser.parse_args()
+
+    index = args.index
+
+    if not (0 <= index <= 9):
+        raise ValueError("Index must be between 0 and 9.")
 
     test_num = 1
-
-    '''
-        set the parameter index to 0~9, respectively
-    '''
-
-    index = 9
-
-    REPO = FCC  # choose one repo
+    REPO = FCC
     commit_SHA = repo_commit_map[REPO][index]
 
     result = test(REPO, commit_SHA, index)
 
     logging.info('The communication costs of update shown in Table 2 (KB):')
-
     logging.info('Repo: %s', REPO)
-
     logging.info('index: %s', index)
-
     logging.info('Trivial-enc-sign (MB): %s', round(result / 1024, 4))

@@ -6,7 +6,7 @@ import logging
 base_dir = Path(__file__).parent
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log'/ 'basic_test_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog'/ 'basic_test_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'

@@ -3,6 +3,7 @@ from src.lib.repo_operation import *
 from src.lib.file_operation import *
 from pathlib import Path
 import logging
+import argparse
 
 base_dir = Path(__file__).parent
 
@@ -10,7 +11,7 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 logging.basicConfig(
-    filename=base_dir.parent.parent / 'log'/ 'test_init_log.log',
+    filename=base_dir.parent.parent / 'evaluationlog'/ 'test_init_log.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -166,12 +167,31 @@ def test_comm(REPO):
 
 
 if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(description='Run initialization test.')
+    parser.add_argument('--repo', required=True,
+                        help='Repository name to test, e.g., awesome, FPB, bootstrap, react, FCC')
+    args = parser.parse_args()
+
+    repo_map = {
+        'awesome': awesome,
+        'FPB': FPB,
+        'bootstrap': bootstrap,
+        'react': react,
+        'FCC': FCC,
+    }
+
+    if args.repo not in repo_map:
+        raise ValueError(f"Unknown repo: {args.repo}. Choose from: {', '.join(repo_map.keys())}")
+
+    REPO = repo_map[args.repo]
+
     result = [0] * 4
 
-    '''
-        set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively
-    '''
-    REPO = awesome
+    # '''
+    #     set the parameter REPO to `awesome/FPB/bootstrap/react/FCC`, respectively
+    # '''
+    # REPO = awesome
 
     test_num = 10  # set the number of tests
 
@@ -199,8 +219,3 @@ if __name__ == '__main__':
     logging.info('SGitLine: %s', result_comm[3])
     logging.info('Git-crypt: %s', result_comm[4])
     logging.info('Trivial-enc-sign: %s', result_comm[1])
-
-
-
-
-
