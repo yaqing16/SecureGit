@@ -155,7 +155,7 @@ The result will be recorded in `evaluationlog/test_init_log.log`.
 Please navigate to the `SecureGit/` directory before running. 
 
 Run `python -m src.pic.pic_reponame`, where the parameter `reponame` can be 
-set to `awesome`, `FPB`, `bootstrap`, `react`, and `FCC`, respectively.
+set to `awesome`, `FPB`, `bootstrap`, `react`, `FCC`, `DocRepo`, respectively.
 
 ### Result:
 
