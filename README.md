@@ -170,8 +170,9 @@ results will be recorded in the `evaluationlog` folder.
 
 Due to differences in machine specifications (e.g., CPU, memory, disk I/O, or network performance), the exact numerical results obtained 
 when running the artifact may vary slightly across different environments. 
-However, the relative comparison between key experimental results should remain consistent. Therefore, the main claims can be verified 
-by checking whether the relative ordering or trends observed in experiments match those reported in the paper.
+However, the relative relationships among the experimental results of different schemes should remain consistent. Therefore, the main claims can be verified 
+by checking whether the relative ordering or trends observed in experiments match those reported in the paper. For example, in E1, SGitChar and SGitLine take
+less communication costs than Git-crypt and Trivial-enc-sign.
 
 ## Note:
 
