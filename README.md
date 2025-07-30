@@ -2,7 +2,7 @@ Paper title: **End-to-End Encrypted Git Services**
 
 ## Environment and dependencies:
 
-We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
+Windows or Linux
 
 git version 2.47.1.windows.1 (choose install Git Bash in the pop-up window)
 Please refer to https://git-scm.com/downloads.
@@ -175,6 +175,8 @@ by checking whether the relative ordering or trends observed in experiments matc
 less communication costs than Git-crypt and Trivial-enc-sign.
 
 ## Note:
+
+We recommend to use the Windows system to evaluate the artifacts, since we conduct the performance evaluation on a Windows computer.
 
 During execution, users may encounter a warning message similar to:
 
